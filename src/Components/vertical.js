@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function vertical(props) {
   return (
-    <div className='flex'>
-        <div className='mr-[10px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
+    <div className='flex mb-[30px]'>
+        <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
             <h1 className=' pb-[10px]'>Basic Info</h1>
             <div className='flex items-center] text-[14px]'>
               <div className='pr-[40px] leading-[25px]'>
@@ -24,7 +24,7 @@ export default function vertical(props) {
               </div>
             </div>
         </div>
-        <div className='mr-[10px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
+        <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
             <h1 className=' pb-[10px]'>Base Token</h1>
             <div className='flex items-center] text-[14px]'>
               <div className='pr-[40px] leading-[25px]'>
@@ -43,7 +43,7 @@ export default function vertical(props) {
               </div>
             </div>
         </div>
-        <div className='mr-[10px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
+        <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'> 
             <h1 className=' pb-[10px]'>Quote Token</h1>
             <div className='flex items-center] text-[14px]'>
               <div className='pr-[40px] leading-[25px]'>
