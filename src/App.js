@@ -7,9 +7,9 @@ import {BsLinkedin} from "react-icons/bs";
 import Card from "./Components/vertical";
 function App() {
   return (
-    <div className="relative max-w-[100%] h-screen flex z-0">
-      <img src={img1} alt="img" className="absolute object-fill w-[100%] h-screen z-1"></img>
-      <div className="absolute w-[288px] h-screen bg-[#292929] rounded-tr-[30px] z-2" > 
+    <div className="relative w-[1512px] h-[982px] h-screen flex z-0">
+      <img src={img1} alt="img" className="absolute object-fill w-[1512px] h-screen z-1"></img>
+      <div className="absolute w-[288px] h-[982px] bg-[#292929] rounded-tr-[30px] z-2" > 
         <div className="flex items-center p-[30px] pb-[10px]">
           <FiCodesandbox className="text-white text-[25.33px]"/>
           <h1 className="pl-[30px] text-white text-[40px]">NFtfy</h1>
@@ -34,10 +34,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="absolute left-[400px]">
+      <h1 className="absolute left-[330px] top-[130px] text-[30px] text-[white]">Token Search Results</h1>
+      <div className="absolute left-[330px] top-[200px]">
+          <Card/>
+          <Card/>
           <Card/>    
       </div>
-      <div className="absolute h-[50px] w-[100%] bg-[#F30050] bottom-[0px] z-3"></div>
+      <div className="absolute h-[50px] w-[100%] bg-[#F30050] top-[932px] z-3"></div>
     </div>
   );
 }
