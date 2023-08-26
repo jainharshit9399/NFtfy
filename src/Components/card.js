@@ -5,8 +5,8 @@ const Card = ({ pairData }) => {
   const quoteToken = pairData.quoteToken;
 
   return (
-    <div className='flex mb-[30px]'>
-      <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
+    <div className='flex flex-wrap'>
+      <div className='mr-[15px] mb-[20px] w-[275px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
         <h1 className=' pb-[10px]'>Basic Info</h1>
         <div className='flex items-center] text-[14px]'>
           <div className='pr-[40px] leading-[25px]'>
@@ -31,7 +31,7 @@ const Card = ({ pairData }) => {
           </div>
         </div>
       </div>
-      <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
+      <div className='mr-[15px] mb-[20px] w-[275px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
         <h1 className=' pb-[10px]'>Base Token</h1>
         <div className='flex items-center] text-[14px]'>
           <div className='pr-[40px] leading-[25px]'>
@@ -50,7 +50,7 @@ const Card = ({ pairData }) => {
           </div>
         </div>
       </div>
-      <div className='mr-[15px] w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
+      <div className='mr-[15px] mb-[20px] w-[275px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
         <h1 className=' pb-[10px]'>Quote Token</h1>
         <div className='flex items-center] text-[14px]'>
           <div className='pr-[40px] leading-[25px]'>
@@ -69,7 +69,7 @@ const Card = ({ pairData }) => {
           </div>
         </div>
       </div>
-      <div className='w-[280px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
+      <div className='mb-[20px] w-[275px] h-[188px] bg-[#390554] pl-[35px]  pt-[25px] text-[white] rounded-[10px]'>
         <h1 className=' pb-[10px]'>Price</h1>
         <div className='flex items-center] text-[14px]'>
           <div className='pr-[40px] leading-[25px]'>
